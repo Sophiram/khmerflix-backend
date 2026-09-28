@@ -1,0 +1,52 @@
+README.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+# ...except the template itself — meant to be committed and shared (see
+# AGENTS.md's "environment contract" reference), unlike every other .env.*
+# variant above which holds real, per-environment secrets.
+!.env.example
+!**/.env.example
+
+# Exported Docker images
+*.tar
+*.tar.gz.env
